@@ -17,7 +17,7 @@ TARGET       = $(BIN_DIR)/crain
 RENDER_SRC   = src/render.c
 PHYSICS_SRC  = src/physics.c
 RAIN_SRC     = src/crain.c
-UTILS_SRC    = stc/utils.c
+UTILS_SRC    = src/utils.c
 
 BUILD_TYPE  ?= debug
 

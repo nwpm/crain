@@ -38,10 +38,20 @@ crain/
 
 ## Clone and build
 ```bash
+# System-wide(requires sudo)
 git clone https://github.com/nwpm/crain.git
 cd crain
-make install
+sudo make BUILD_TYPE=release install
 ```
+
+```bash
+# Local install(no sudo required)
+# NOTE: Ensure '$HOME/.local/bin' is in your PATH
+git clone https://github.com/nwpm/crain.git
+cd crain
+make install BUILD_TYPE=release PREFIX=$HOME/.local
+```
+
 ## Manual Compilation
 ```bash
 gcc -o crain crain.c physics.c render.c utils.c -lncurses
