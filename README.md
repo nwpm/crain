@@ -38,7 +38,7 @@ crain/
 
 ## Clone and build
 ```bash
-git clone https://github.com/nwpm/rain-drops.git
+git clone https://github.com/nwpm/crain.git
 cd crain
 make install
 ```
